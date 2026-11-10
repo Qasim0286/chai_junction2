@@ -1,0 +1,88 @@
+<!--
+Name: Muhammad Qasim
+Roll No: 26i-3055
+Section: B
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chai Junction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>☕ Chai Junction</h1>
+        <p>Fresh Chai & Snacks</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h2>Welcome to Chai Junction</h2>
+        <p>Enjoy fresh chai and delicious snacks!</p>
+
+        <img
+            src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=700"
+            alt="Coffee and cafe drinks"
+        >
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Category</th>
+                <th>Price</th>
+            </tr>
+
+            <tr>
+                <td>Doodh Patti</td>
+                <td>Tea</td>
+                <td>Rs. 150</td>
+            </tr>
+
+            <tr>
+                <td>Green Tea</td>
+                <td>Tea</td>
+                <td>Rs. 100</td>
+            </tr>
+
+            <tr>
+                <td>Paratha</td>
+                <td>Food</td>
+                <td>Rs. 120</td>
+            </tr>
+
+            <tr>
+                <td>Samosa</td>
+                <td>Snacks</td>
+                <td>Rs. 50</td>
+            </tr>
+        </table>
+
+        <button onclick="order()">ORDER NOW</button>
+    </section>
+
+    <footer id="contact">
+        <p>Thank you for visiting Chai Junction!</p>
+    </footer>
+
+    <script>
+        function order() {
+            console.log("Order button was clicked");
+            window.alert("Your order has been received!");
+        }
+    </script>
+
+</body>
+</html>
