@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Menu - Chai Junction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>☕ Chai Junction</h1>
+        <p>Fresh Chai & Snacks</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Our Menu</h2>
+        <p>Enjoy our fresh chai and delicious snacks!</p>
+
+        <table>
+            <tr>
+                <th>Item</th>
+                <th>Category</th>
+                <th>Price</th>
+            </tr>
+
+            <tr>
+                <td>Doodh Patti</td>
+                <td>Tea</td>
+                <td>Rs. 150</td>
+            </tr>
+
+            <tr>
+                <td>Green Tea</td>
+                <td>Tea</td>
+                <td>Rs. 100</td>
+            </tr>
+
+            <tr>
+                <td>Paratha</td>
+                <td>Food</td>
+                <td>Rs. 120</td>
+            </tr>
+
+            <tr>
+                <td>Samosa</td>
+                <td>Snacks</td>
+                <td>Rs. 50</td>
+            </tr>
+        </table>
+
+        <button onclick="order()">
+            ORDER NOW
+        </button>
+
+    </section>
+
+    <footer>
+        <p>Thank you for visiting Chai Junction!</p>
+    </footer>
+
+    <script>
+        function order() {
+            console.log("Order button clicked");
+            window.alert("Your order has been received!");
+        }
+    </script>
+
+</body>
+</html>
